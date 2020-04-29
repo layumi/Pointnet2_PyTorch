@@ -19,11 +19,15 @@ Setup
 
 * Install ``python`` -- This repo is tested with ``3.6``
 
-```
+``` bash
 conda create --name Point python=3.6
+
 source activate Point
+
 conda install pytorch=1.4.0 torchvision cudatoolkit=10.1 -c pytorch
+
 pip install -r requirements.txt
+
 conda install h5py pillow=6.1
 ```
 
